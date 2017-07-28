@@ -1,0 +1,37 @@
+package frog;
+
+/*
+* All Bull frogs are Animals but all Animals are not Bull frogs
+*/
+public class Bullfrog extends Animal {
+public Bullfrog()
+{
+//super();
+System.out.println("A bullfrog is born...");
+}
+
+
+public String sleep() {
+return "A bullfrog sleeps quietly...";
+}
+
+
+public String eat() {
+return "A bullfrog eats flies...";
+}
+
+
+public String croak()
+{
+//Bull frogs can croak but other animals can't so this method
+//is unique to the Bull frog class
+return "A bullfrog croaks...";
+}
+
+public String jump()
+{
+//Bull frogs can jump to move
+return "A bullfrog jumps...";
+}
+
+}

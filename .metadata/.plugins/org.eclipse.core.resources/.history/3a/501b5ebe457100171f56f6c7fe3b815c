@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+package prompt;
+
+/**
+ * @author student
+ *
+ */
+public class User {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String ourString = "Y";
+	
+		
+			while(response.equalsIignoreCase("Y")
+	}		{
+				//Prompt user
+				//Get value of input
+		if(response.equalsIignoreCase("Y")){
+			
+			System.out.println("Continue");
+		}
+		else {
+			System.out.println("Quit");
+		}
+		if(response.equalsIignoreCase("N")){
+			System.out.println("Quit");
+		}
+			
+	}
+
+

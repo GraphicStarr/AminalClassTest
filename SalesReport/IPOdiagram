@@ -1,0 +1,14 @@
+PO diagram:
+
+  Input:                                              Processing:                                           Output:
+
+customerName                 receive customerName
+customerNumber            receive customerNumber
+salesAmount                      receive salesAmount
+taxCodeAmount               receive taxCodeAmount
+totalAmountDue              Multiply salesAmount by 
+                                                    taxCode, subtract above sum
+                                                    from salesAmount to receive          Display customer name,
+                                                   totalAmountDue                                      number, sales amount,
+                                                                                                                                sales tax and total amount
+                                                                                                                                due

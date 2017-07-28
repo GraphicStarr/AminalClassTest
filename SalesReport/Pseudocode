@@ -1,0 +1,28 @@
+Pseudocode:
+
+Do
+	Find customer's name and number
+ 	 	Ask user to input customer's name
+		Ask user to input customer's number
+			While finding sales amount and tax code 
+
+If customer's name starts between letters A through J
+		Print number 1
+	If customer's name starts between letters K through T
+		Print number 2
+Else
+		Print number 0
+
+If customer's tax code is greater than zero
+		Print tax code amount
+Else
+		Print "Tax Exempt"
+
+If tax Exempt
+		Print sales amount
+Else
+		Print sales amount times tax code amount
+
+SalesTotal equals sales amount times tax code amount minus sales amount
+
+		Print customer's name, number, sales tax and SalesTotal

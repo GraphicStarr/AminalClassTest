@@ -1,0 +1,27 @@
+Algorithm
+
+1. Prompt the user - “Would you like to continue?”
+2. Get input from the user
+3. Check for 3 things:
+	a) Yes - Y - Continue- Re-prompt the user
+	b) No - N - Quit
+	c) Other - ... -Error message Re-prompt
+
+Psuedocode:
+
+Do prompt user 
+	While user enters response
+	If user inputs “Yes”
+		Print “Continue” and re-prompt user
+	Else 
+		Print “Quit”
+
+	If user inputs “No”
+		Print “Quit”
+	If user inputs “Other”
+		Print “Error Message” and re-prompt user
+	Else
+		Print “Quit”
+EndDo
+
+

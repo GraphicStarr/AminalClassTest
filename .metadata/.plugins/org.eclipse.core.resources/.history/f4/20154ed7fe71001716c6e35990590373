@@ -1,0 +1,44 @@
+package Sales;
+
+import java.util.Scanner;
+
+public class totalSale {
+
+	public static void main(String[] args) {
+		// Find Customer's Name and Number
+		
+		int num = 0;
+		double salesAmount = 0.0;
+		short taxCodeAmount = 0;
+		
+		Scanner scanner = new Scanner(System.in);
+		String name;
+		
+		// Ask the user to input the customer's name
+		
+		do{
+				System.out.println("Enter your name");
+				name = scanner.nextLine();
+				
+		// Ask the user to input customer's number
+				
+			while(num > 0)
+				if(num < 0 || num == 0){
+					System.out.println("Please enter number 1");
+				}
+				else{
+					System.out.println("Please enter number 2");
+					
+		// Assign the the customer their tax code
+					
+					if (num > 0 && num !=0){
+						System.out.println("Tax code:" + num);
+					}
+					else{
+						System.out.println("Tax Exempt");
+					}
+					}
+		}
+
+}
+}

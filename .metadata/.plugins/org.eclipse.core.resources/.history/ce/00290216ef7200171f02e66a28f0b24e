@@ -1,0 +1,43 @@
+/** All Bullfrogs are Frogs but not all Frogs are Bullfrogs
+ * 
+ */
+package frog;
+
+/**
+ * @author Jerilyn Mensah
+ *
+ */
+		
+	
+	public class Bullfrog extends Animal{
+		
+		public Bullfrog()
+		{ //super
+			System.out.println("A bullfrog is created");	
+	}
+	
+	
+	@Override
+	public String eat() {
+		return "A bullfrog eats...";
+	}
+	
+	@Override
+	public String sleep() {
+		return "A bullfrog sleeps...";
+	}
+	
+	public String jump() {
+		return "A bullfrog can jump in the air" ;
+	}
+	
+	public String croak() {
+		
+		//Bullfrogs can croak but other animals can't. This
+		//is one unique feature of the bullfrog.
+		
+		return "A bullfrog croaks";
+	}
+	
+
+	}

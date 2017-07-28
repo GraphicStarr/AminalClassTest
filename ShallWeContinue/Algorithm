@@ -1,0 +1,8 @@
+Algorithm
+
+1. Prompt the user - “Would you like to continue?”
+2. Get input from the user
+3. Check for 3 things:
+	a) Yes - Y - Continue- Re-prompt the user
+	b) No - N - Quit
+	c) Other - ... -Error message Re-prompt

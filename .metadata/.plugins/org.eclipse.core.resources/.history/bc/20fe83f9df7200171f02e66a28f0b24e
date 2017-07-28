@@ -1,0 +1,20 @@
+/** All Bullfrogs are Frogs but not all Frogs are Bullfrogs
+ * 
+ */
+package frog;
+
+/**
+ * @author Jerilyn Mensah
+ *
+ */
+public class Bullfrog extends Animal {
+	
+	public Bullfrog()
+	{
+		//super
+		
+		System.out.println("A bullfrog is born");
+		
+	}
+
+}

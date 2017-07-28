@@ -1,0 +1,18 @@
+Psuedocode:
+
+Do prompt user 
+	While user enters response
+	If user inputs “Yes”
+		Print “Continue” and re-prompt user
+	Else 
+		Print “Quit”
+
+	If user inputs “No”
+		Print “Quit”
+	If user inputs “Other”
+		Print “Error Message” and re-prompt user
+	Else
+		Print “Quit”
+EndDo
+
+

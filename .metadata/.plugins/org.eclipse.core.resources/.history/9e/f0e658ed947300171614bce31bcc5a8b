@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package invoice;
+
+/**
+ * @author Jerilyn Mensah
+ *
+ *
+ *	This application will accept a list of products and its prices
+ *	with the tax rate and will give an output of the product prices 
+ *	added, the amount of tax due and the total amount due.
+ */
+public class InvoiceApp {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

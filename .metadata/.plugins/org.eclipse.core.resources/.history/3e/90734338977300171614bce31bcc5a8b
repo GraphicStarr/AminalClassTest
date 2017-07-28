@@ -1,0 +1,55 @@
+/**
+ * 
+ */
+package invoice;
+
+/**
+ * @author Jerilyn Mensah
+ *
+ *
+ *	This application will accept a list of products and its prices
+ *	with the tax rate and will give an output of the product prices 
+ *	added, the amount of tax due and the total amount due.
+ */
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class InvoiceApp {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner.scanner = new Scanner(System.in);
+		
+		//Declare variables
+		
+		boolean addProduct = true; 
+		double taxRate;              // Tax rate of all products
+		double Price;                // Price of products 
+		double finalAmount;          // total of taxRateAmount + Price 
+		double subTotal;             // Amount before tax rate is added
+		double taxrateAmount;        // Amount of taxRate * Price
+		
+		String descr;              	// Product description
+		
+		List<Product> products = new ArrayList<Product>();  // Stores all products entered
+		
+		// Enter the product description
+		
+		System.out.println("Enter the product description:");
+		descr = scanner.nextLine();
+		
+		// Enter the tax rate
+		
+		System.out.println("Enter the tax rate. i.e. press 6 for 6%");
+		taxRate = scanner.nextLineDouble();
+		scanner.nextLine();
+		taxRate /= 100;     // converts to decimal i.e. 5% converts to .05.
+
+	}
+
+}
